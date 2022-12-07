@@ -5218,6 +5218,7 @@ input[type="submit"] {
   top: 0;
   object-fit: cover;
   z-index: -1;
+  pointer-events: none;
 }
 .content-work img.bg .dark {
   display: block;
