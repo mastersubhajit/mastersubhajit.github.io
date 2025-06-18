@@ -1,879 +1,689 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subhajit Ghosh - Personal Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#f7f2f2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Developer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Master Subhajit Ghosh | IOT &amp; Cybersecurity Engineer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <style type="text/css">
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+        }
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+        }
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+        }
+    </style>
+    <link rel="stylesheet" href="/assets/css/styles.css" media="all" />
+    <!--<link rel="stylesheet" href="https://bit.ly/3iFLoI8" media="all" />-->
+    <meta name="description"
+        content="I&#039;m Master Subhajit Ghosh, an IOT &amp; Cybersecurity Engineer from India. I&#039;m interested in identifying threats and vulnarabilities alongside working with microcontrollers to develop and implement hi-tech solutions. I accept job offers, collaborating with companies, startups and brands." />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://mastersubhajit.com/" />
+    <script type="application/ld+json">
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "WebSite",
+            "name": "Master Subhajit Ghosh",
+            "alternateName": "Subhajit Ghosh",
+            "description": "Cybersecurity Engineer",
+            "url": "https:\/\/mastersubhajit.com",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https:\/\/mastersubhajit.com\/?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <meta property="og:url" content="https://mastersubhajit.com/" />
+    <meta property="og:site_name" content="Master Subhajit Ghosh" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Master Subhajit Ghosh | Artificial Intelligence Researcher &amp; Data Engineer" />
+    <meta property="og:description"
+        content="I&#039;m Master Subhajit Ghosh, an Artificial Intelligence Researcher &amp; Data Engineer from India. I&#039;ve demonstrated expertise in large language models (LLMs), cybersecurity systems, and blockchain-based infrastructure. Skilled in designing scalable algorithms, building secure AI-driven frameworks, and applying data-driven methods to real-world challenges. Developed systems that outperform baseline benchmarks by measurable margins, contributing to both academic research and applied technologies." />
+    <meta property="og:image" content="https://mastersubhajit.com/assets/img/demo.png" />
+    <meta property="og:image:secure_url" content="https://mastersubhajit.com/assets/img/demo.png" />
+    <meta property="og:image:width" content="1640" />
+    <meta property="og:image:height" content="856" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Master Subhajit Ghosh | Artificial Intelligence Researcher &amp; Data Engineer" />
+    <meta name="twitter:description"
+        content="I&#039;m Master Subhajit Ghosh, an Artificial Intelligence Researcher &amp; Data Engineer from India. I&#039;ve demonstrated expertise in large language models (LLMs), cybersecurity systems, and blockchain-based infrastructure. Skilled in designing scalable algorithms, building secure AI-driven frameworks, and applying data-driven methods to real-world challenges. Developed systems that outperform baseline benchmarks by measurable margins, contributing to both academic research and applied technologies." />
+    <meta name="twitter:image" content="http://mastersubhajit.com/assets/img/demo.png" />
+    <script type="application/ld+json">
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "Person",
+            "name": "Subhajit Ghosh",
+            "url": "https:\/\/mastersubhajit.com\/",
+            "sameAs": ["https:\/\/www.linkedin.com\/in\/mastersubhajit\/"]
+        }
+    </script>
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+        }
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="icon" href="https://mastersubhajit.com/assets/img/icons/Subhajit-Ghosh.ico" sizes="32x32" />
+    <link rel="icon" href="https://mastersubhajit.com/assets/img/icons/Subhajit-Ghosh(64x64).ico" sizes="64x64" />
+    <link rel="apple-touch-icon"
+        href="https://mastersubhajit.com/assets/img/Subhajit-Ghosh.png" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S8Q01TMJPF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-S8Q01TMJPF');
+    </script>
 </head>
 
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Alfaizkhan Pathan" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Subhajit Ghosh">Subhajit Ghosh</h1>
-          
-          <p class="title">Cybersecurity Engineering Student</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+<body oncontextmenu="return false"
+    class="home page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-5">
+    <!--<div class="preloader"></div> -->
+    <div class="fixed">
+        <div class="header">
+            <div class="header__logo">
+                <a href="/" class="logo">
+                    <div class="logo-bg"> <span style="font-family:Moranga Bold;font-size:40px">msg</span></div>
+                    <style>
+                        .logo-bg{
+                            background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            -moz-background-clip: text;
+                            -moz-text-fill-color: transparent;
+                            text-decoration: none;
+                            transition: box-shadow 0.2s ease-out 0s;
+                        }
+                    </style>
+                </a>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:hello@mastersubhajit.com" class="contact-link">hello@mastersubhajit.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+918274921319" class="contact-link">+91 8274921319</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2001-10-12">October 12, 2001</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Kolkata, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/mastersubhajit" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mastersubhajit/" target="_blank" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          
-          <li class="social-item">
-            <a href="https://t.me/mastersubhajit" target="_blank" class="social-link">
-              <ion-icon name="chatbubbles-outline"></ion-icon>
-            </a>
-          </li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <!--<li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Terminal</button>
-          </li>-->
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am Subhajit Ghosh, a dedicated and enthusiastic individual with a strong foundation in cybersecurity. Currently I'm pursuing B.TECH in Computer Science with a specialization in Cybersecurity. My skills includes:
-          </p>
-
-          <p>
-            <br>
-            • Professional Experience in MITRE Framework.
-            </br>
-            • Working knowledge with IDOR, SIEM tools.
-            <br>
-            • Working experience with third-party libraries in Python3.
-            <br>
-            • Familiar with SQL, Git (GitHub), Cryptography.
-            </br>
-            • Solid understanding of the software development life cycle.
-            <br>
-            • Securing networks, including firewalls, intrusion detection/prevention systems, and VPNs.
-            <br>
-            • Security and Risk Management including analyzing security breaches and implementing corrective action.
-            <br>
-            • Effectively communicating security concepts and solutions to both technical and non-technical stakeholders.
-            <br>
-            • Collaborating with Security Researchers, as well as Software Testers, to ensure that each app is
-            presentable and in perfect working order.
-            <br>
-            • Staying updated on the latest cybersecurity threats, technologies, and best practices to adapt to the evolving cybersecurity landscape.
-            <br>
-            • Learning Solidity, Blockchain, and Smart Contracts.
-            </br>
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/ethical_hacking.png" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Penetration Testing</h4>
-
-                <p class="service-item-text">
-                  Professional Penetration Testing of web applications.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/ctf.png" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">CTFs</h4>
-
-                <p class="service-item-text">
-                  I constantly upgrade my skills through Hack The Box CTFs.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Client From USA" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Referral</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                      <!-- FILEPATH: /Users/mastersubhajit/Downloads/alfaizkhan.github.io-main/index.html -->
-                      <!-- 
-                        This section contains a recommendation for Mr. Subhajit Ghosh for the position of Cybersecurity Analyst. 
-                        It highlights his dedication to the cybersecurity field, completion of rigorous coursework and internships, 
-                        and his ability to bridge theoretical knowledge with practical application. The comment also mentions his 
-                        analytical skills, proactive approach to security challenges, and effective communication capabilities. 
-                        It concludes by expressing confidence in Subhajit's ability to fortify cybersecurity efforts and safeguard 
-                        digital assets with diligence and expertise.
-                      -->
-                      I am pleased to wholeheartedly recommend Mr. Subhajit Ghosh for the position of Cybersecurity Analyst. Subhajit's exemplary dedication to the cybersecurity field, as evidenced by his completion of rigorous cybersecurity coursework and internships at esteemed organizations, makes him a standout candidate. His diligent and professional work ethic, coupled with an exceptional ability to bridge theoretical knowledge with practical application, equips him to excel in the role. I have had the privilege of collaborating with Subhajit, and his astute analytical skills, proactive approach to security challenges, and effective communication capabilities are truly commendable. I am confident that Subhajit will be an invaluable addition to your organization, fortifying your cybersecurity efforts and safeguarding digital assets with diligence and expertise.
-                  </p>
+            <div class="header__menu" id="main-menu">
+                <div class="header__navigation">
+                    <ul class="site-nav">
+                        <li class="active"><a style="font-family:Moranga Bold;"
+                                href="/">Home</a></li>
+                        <li><a style="font-family:Moranga Bold;" href="/about">About</a></li>
+                        <li><a style="font-family:Moranga Bold;"
+                                href="/projects">Projects</a></li>
+                        <li><a style="font-family:Moranga Bold;" href="/tools">Tools</a></li>
+                        <li><a style="font-family:Moranga Bold;"
+                                href="mailto:hello@mastersubhajit.com">Contact</a></li>
+                    </ul>
+                    <div class="line-menu"></div>
                 </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Client From USA" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Referral</h4>
-
-              <time datetime="2023-06-14">2023-06-14</time>
-
-              <div data-modal-text>
-                <p>
-                  I am pleased to wholeheartedly recommend Mr. Subhajit Ghosh for the position of Cybersecurity Analyst. Subhajit's exemplary dedication to the cybersecurity field, as evidenced by his completion of rigorous cybersecurity coursework and internships at esteemed organizations, makes him a standout candidate. His diligent and professional work ethic, coupled with an exceptional ability to bridge theoretical knowledge with practical application, equips him to excel in the role. I have had the privilege of collaborating with Subhajit, and his astute analytical skills, proactive approach to security challenges, and effective communication capabilities are truly commendable. I am confident that Subhajit will be an invaluable addition to your organization, fortifying your cybersecurity efforts and safeguarding digital assets with diligence and expertise.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
+            <div class="header__cta"> <a style="font-family:Moranga Bold;" href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/"
+                    class="button">Policy Pages</a></div>
         </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section> -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of Engineering &amp; Management, Kolkata</h4>
-
-              <span>2021 — 2025</span>
-
-              <p class="timeline-text">
-                Bachelor of Technology - Computer Science (IOT, Cybersecurity &amp; Blockchain Technology)
-                <br>
-                Grade: 9.04 CGPA
-                </br>
-
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Central Model School, Barrackpore</h4>
-
-              <span>2019 — 2021</span>
-
-              <p class="timeline-text">
-                High Secondary, Science
-                <br>
-                Grade: A+
-                </br>
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Cyber Security Analyst Intern</h4>
-              <span>IBM SkillsBuild</span>
-
-              <span>Jun 2023 — Jul 2023</span>
-
-              <p class="timeline-text">
-                I undertook a keylogger development project, delving into offensive and defensive aspects. My role encompassed active contribution to the design, development, and defense against potential vulnerabilities. This hands-on experience enriched my cybersecurity skills, fostering a keen understanding of evolving cyber threats and ethical considerations.
-                <br>
-                Skills: IAM (Identity Access Management) · Python3 · Keylogger · SIEM · IDOR · MITRE Framework
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Cyber Security Intern</h4>
-              <span>Palo Alto Networks</span>
-              <span>Jul 2022 - Sept 2022 · 2 months</span>
-
-              <p class="timeline-text">
-                I actively engaged in various facets of cybersecurity operations. My responsibilities included analyzing and monitoring network traffic to identify potential security threats, conducting vulnerability assessments, and participating in the deployment and management of security tools. I gained hands-on experience in investigating security incidents, responding to incidents in real-time, and collaborating with cross-functional teams to implement effective security measures.
-                <br>
-                Skills: SOC · Cyber Operations · Vulnerability Assessment · Network Analysis · Incident Response
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!-- <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Flutter & Dart</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Android & Java</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">iOS</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Firebase</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Ionic</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section> -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="projects">
-
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Cybersecurity</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>IOT</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Blockchain</button>
-            </li>
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Cybersecurity</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>IOT</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Blockchain</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="All">
-              <a href="https://github.com/mastersubhajit/change_gdm3_lockscreen_background">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/gdm3.jpg" alt="linux lockscreen" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Change gdm3 lockscreen wallpaper</h3>
-
-                <p class="project-category">All</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="cybersecurity">
-              <a href="https://github.com/mastersubhajit/Keylogger">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/keylogger.jpg" alt="keylogger" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orion: An Advanced Keylogger</h3>
-
-                <p class="project-category">Cybersecurity</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="iot">
-              <a href="https://drive.google.com/drive/folders/13og6m6BYZ9eEkWtFKLR9_UCEuV6s8K9l?usp=drive_link">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/cyberdrone.jpg" alt="drone" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">CyberDrone</h3>
-
-                <p class="project-category">IOT</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="iot">
-              <a href="https://github.com/mastersubhajit/raspberry-pi-camera">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/picam.jpg" alt="raspberrypi" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Webstream using Picam</h3>
-
-                <p class="project-category">IOT</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <!--<article class="terminal" data-page="terminal">
-
-        <header>
-          <h2 class="h2 article-title">Terminal</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#"
-                target="_blank">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Exploring the Stripe Payment Gateway In Flutter"
-                    loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Flutter</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-07-27">Jul 27, 2022 · 7 min read</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Exploring the Stripe Payment Gateway In Flutter</h3>
-
-                  <p class="blog-text">
-                    Stripe payment gateway integration in flutter project.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>-->
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29474.148124430725!2d88.34462781606986!3d22.569058412919794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1706478033420!5m2!1sen!2sin"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="https://formsubmit.co/1576a010effac9225274a8f0d1403ae0" method="POST" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit">
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
     </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <!-- seo title home -->
+    <h1 class="display-none">Master Subhajit Ghosh - Cybersecurity &amp; IOT Engineer</h1>
+    <div id="swup" class="transition-fade">
+        <main>
+            <section>
+            <div class="home_grid" style="background: #f7f2f2;">
+                <div class="mansory">
+                    <div class="box box-about box-2w">
+                        <div class="content-about"> <img class="img-1" src="/assets/img/Subhajit-Ghosh.png" alt="MSG">
+                            <img class="img-2" src="/assets/img/subhajit-bomb.png" alt="MSG">
+                            <p>I’m <span style="font-family:Moranga Bold;font-size:40px">Subhajit Ghosh</span>, an Artificial Intelligence Researcher &amp; Data Engineer from India. I&#039;ve demonstrated expertise in large language models (LLMs), cybersecurity systems, and blockchain-based infrastructure.</p>
+                            <a class="button-toggle">
+                                <svg id="Arrow_Rotate.2" data-name="Arrow, Rotate.2" xmlns="http://www.w3.org/2000/svg"
+                                    width="15.702" height="15.702" viewBox="0 0 15.702 15.702">
+                                    <g id="Group_6" data-name="Group 6" transform="translate(2.62 2.617)">
+                                        <path id="Path_5" data-name="Path 5"
+                                            d="M14.8,12.032a5.229,5.229,0,0,1-9.824,2.482"
+                                            transform="translate(-4.34 -6.777)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path>
+                                        <path id="Path_6" data-name="Path 6" d="M4,9.149A5.231,5.231,0,0,1,13.83,6.731"
+                                            transform="translate(-4.004 -4)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path>
+                                        <path id="Path_7" data-name="Path 7" d="M15.953,6.952h2.313V4.639"
+                                            transform="translate(-8.135 -4.221)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path>
+                                        <path id="Path_8" data-name="Path 8" d="M6.825,15.825H4.512v2.313"
+                                            transform="translate(-4.18 -8.088)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path>
+                                    </g>
+                                    <path id="Path_9" data-name="Path 9" d="M0,0H15.7V15.7H0Z" fill="none"></path>
+                                </svg>
+                                <p>Toggle Lockdown</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box box-map">
+                        <div class="content-map"> <img class="img-map light" src="assets/img/map-green.png
+                            " alt="map_light"> <img class="img-map dark" src="/img/map-dark.png" alt="map_dark">
+                            <div class="avatar-box">
+                                <div class="avatar-circle"> <img class="img-avatar"
+                                        src="/assets/img/subhajit.png" alt="">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box-work-1 box-2h">
+                        <div class="content-work"> <img class="bg light" src="/assets/img/home_projects.jpg" alt=""> <img class="bg dark" src="/assets/img/home_projects_dark.png">
+                            <a href="https://mastersubhajit.com/projects" class="button">
+                                <p>Projects</p> <svg id="Arrow.7" xmlns="http://www.w3.org/2000/svg" width="18.256"
+                                    height="18.256" viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                    <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                        <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                            transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                        <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                            transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    </g>
+                                    <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box box-light">
+                        <div class="content-light"> <label class="switch"> <input class="switch__input" type="checkbox">
+                                <span class="switch__background"> <span class="switch__toggle"> </span> <span
+                                        class="switch__stars"></span> <span class="switch__clouds"></span> </span>
+                            </label></div>
+                    </div>
+                    <div class="box box-linkedin">
+                        <div class="content-social"> <svg class="linkedin-icon" width="75.121" height="61.052"
+                                viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.98 2.5C4.98 3.881 3.87 5 2.5 5C1.13 5 0.02 3.881 0.02 2.5C0.02 1.12 1.13 0 2.5 0C3.87 0 4.98 1.12 4.98 2.5ZM5 7H0V23H5V7ZM12.982 7H8.014V23H12.983V14.601C12.983 9.931 19.012 9.549 19.012 14.601V23H24V12.869C24 4.989 15.078 5.276 12.982 9.155V7Z"
+                                    fill="white" />
+                            </svg> <a href="https://www.linkedin.com/in/mastersubhajit/" class="button" rel="nofollow">
+                                <svg id="Arrow.7" xmlns="http://www.w3.org/2000/svg" width="18.256" height="18.256"
+                                    viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                    <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                        <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                            transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                        <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                            transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    </g>
+                                    <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                                </svg> </a></div>
+                    </div>
+                    <div class="box box-work-2 box-2h">
+                        <div class="content-work"> <img class="bg" src="assets/img/home_tools.png" alt=""><img class="bg dark" src="https://mastersubhajit.com/assets/img/home_tools_dark.png">
+                            <a href="https://mastersubhajit.com/assets/img/tools" class="button">
+                                <p>Tools</p> <svg id="Arrow.7" xmlns="http://www.w3.org/2000/svg" width="18.256"
+                                    height="18.256" viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                    <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                        <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                            transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                        <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                            transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    </g>
+                                    <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box box-2w box-text box-text-1">
+                        <div class="content-text">
+                            <div class="content-title">
+                                <h2>How it started vs. how it's going</h2>
+                                <p>A short personal history as it relates to design and development, and how I've found
+                                    value in the cross-section between both disciplines.</p>
+                            </div>
+                            <div class="content-cta"> <a href="https://mastersubhajit.com/about" class="button"> <svg id="Arrow.7"
+                                        xmlns="http://www.w3.org/2000/svg" width="18.256" height="18.256"
+                                        viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                        <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                            <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                                transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            </path>
+                                            <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                                transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            </path>
+                                        </g>
+                                        <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none">
+                                        </path>
+                                    </svg>
+                                    <p>Read more</p>
+                                </a>
+                                <p class="date">Dec 6, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box-twitter">
+                        <div class="content-social"><img class="img-map light" src="/assets/img/resume.png" alt=""> <img class="img-map dark" src="assets/img/resume-dark.png" alt=""> <a href="resume.html" class="button" rel="nofollow"> <svg id="Arrow.7"
+                                    xmlns="http://www.w3.org/2000/svg" width="18.256" height="18.256"
+                                    viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                    <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                        <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                            transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                        <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                            transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    </g>
+                                    <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                                </svg> </a></div>
+                    </div>
+                    <div class="box box-work-3 box-2w">
+                        <div class="content-work"><img class="bg" src="/assets/img/white.png">
+                            <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/in/album/%D0%B7%D0%B0%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8-i-love-you/1614536577?i=1614536688"></iframe>
+                            <a href="https://music.apple.com/in/album/%D0%B7%D0%B0%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8-i-love-you/1614536577?i=1614536688" class="button" rel="nofollow" target="_blank">
+                                <p>iTunes</p> <svg id="Arrow.7" xmlns="http://www.w3.org/2000/svg" width="18.256"
+                                    height="18.256" viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                    <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                        <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                            transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                        <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                            transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    </g>
+                                    <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box box-2w box-text box-text-2">
+                        <div class="content-text">
+                            <div class="content-title">
+                                <h2>Let's create something special!</h2>
+                                <p>I accept jobs offers from companies, startups and brands.</p>
+                            </div>
+                            <div class="content-cta"> <a href="https://rzp.io/l/mastersubhajit" class="button"> <svg
+                                        id="Arrow.7" xmlns="http://www.w3.org/2000/svg" width="18.256" height="18.256"
+                                        viewBox="0 0 18.256 18.256" style="transition:.3s">
+                                        <g id="Group_7" data-name="Group 7" transform="translate(5.363 5.325)">
+                                            <path id="Path_10" data-name="Path 10" d="M14.581,7.05,7.05,14.581"
+                                                transform="translate(-7.05 -7.012)" fill="none" stroke="#0D1117"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            </path>
+                                            <path id="Path_11" data-name="Path 11" d="M10,7l5.287.037.038,5.287"
+                                                transform="translate(-7.756 -7)" fill="none" stroke="#0D1117"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            </path>
+                                        </g>
+                                        <path id="Path_12" data-name="Path 12" d="M0,0H18.256V18.256H0Z" fill="none">
+                                        </path>
+                                    </svg>
+                                    <p>Schedule Meeting</p>
+                                </a>
+                                <p class="date">Current time in Kolkata <span id="digital-clock" class="count"
+                                        style="font-family: &quot;Moranga Bold&quot;; font-size: 24px; color: rgb(13, 17, 23);"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </section>
+        </main>  
+    </div>
+    <script type='text/javascript' src='/assets/js/jquery.min.js'></script>
+    <script type='text/javascript' src='/assets/js/swup.min.js'></script>
+    <script type='text/javascript' src='/assets/js/SwupBodyClassPlugin.min.js'></script>
+    <script type='text/javascript' src='/assets/js/SwupHeadPlugin.min.js'></script>
+    <script type='text/javascript' src='/assets/js/nakedpress-script.min.js' id='nakedpress-script-js'></script>
+    <script type='text/javascript' src='/assets/js/comment-reply.min.js' id='comment-reply-js'></script>
 </body>
-
 </html>
