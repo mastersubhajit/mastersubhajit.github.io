@@ -470,8 +470,100 @@
                     <div class="line-menu"></div>
                 </div>
             </div>
-            <div class="header__cta"> <a style="font-family:Moranga Bold;" href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/"
-                    class="button">Policy Pages</a></div>
+            <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown()">Policy Pages</button>
+                 <div class="dropdown-menu" id="policyDropdown">
+                    <a href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/terms">Terms &amp; Conditions</a>
+                    <a href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/privacy">Privacy Policy</a>
+                    <a href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/refund">Cancellations & Refund</a>
+                    <a href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/shipping">Shipping &amp; Delivery</a>
+                    <a href="https://merchant.razorpay.com/policy/QicCbltAKlSXpm/contact_us">Contact Us</a>
+                 </div>
+            </div>
+              <style>
+                    /* Base Reset */
+                    * {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                    }
+
+                    body {
+                    font-family: 'Moranga Bold', sans-serif;
+                    }
+
+                    /* Dropdown Container */
+                    .dropdown {
+                    position: relative;
+                    display: inline-block;
+                    }
+
+                    .dropdown-toggle {
+                    background-color: #007BFF;
+                    color: white;
+                    padding: 10px 16px;
+                    border: none;
+                    cursor: pointer;
+                    font-family: 'Moranga Bold', sans-serif;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    }
+
+                    .dropdown-menu {
+                    display: none;
+                    position: absolute;
+                    background-color: white;
+                    min-width: 240px;
+                    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+                    z-index: 1000;
+                    border-radius: 6px;
+                    overflow: hidden;
+                    }
+
+                    .dropdown-menu a {
+                    color: #333;
+                    padding: 12px 16px;
+                    display: block;
+                    text-decoration: none;
+                    font-family: 'Moranga Bold', sans-serif;
+                    }
+
+                    .dropdown-menu a:hover {
+                    background-color: #f1f1f1;
+                    }
+
+                    /* Show menu on hover for desktop */
+                    @media (hover: hover) and (pointer: fine) {
+                    .dropdown:hover .dropdown-menu {
+                        display: block;
+                    }
+                    }
+
+                    /* Responsive Mobile Menu */
+                    @media (max-width: 768px) {
+                    .dropdown-menu {
+                        position: static;
+                        width: 100%;
+                    }
+                    }
+                </style>
+                <script>
+                    function toggleDropdown() {
+                    const menu = document.getElementById("policyDropdown");
+                    menu.style.display = menu.style.display === "block" ? "none" : "block";
+                    }
+
+                    // Close menu if clicked outside (for mobile)
+                    document.addEventListener("click", function (event) {
+                    const dropdown = document.querySelector(".dropdown");
+                    const toggle = document.querySelector(".dropdown-toggle");
+                    const menu = document.getElementById("policyDropdown");
+
+                    if (!dropdown.contains(event.target)) {
+                        menu.style.display = "none";
+                    }
+                    });
+                </script>
         </div>
     </div>
     <!-- seo title home -->
